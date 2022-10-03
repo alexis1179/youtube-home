@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header{
+  width: 100%;
+  background-color: rgb(38, 38, 38);
+  color: #ffffff;
+  padding: 1.2rem;
+  box-sizing: border-box;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-p.start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav-p.start .burger{
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-p.start .burger .line{
+  width: 60%;
+  height: 3px;
+  margin: 3px;
+  background-color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-p.start .logo a{
+  text-decoration: none;
+  cursor: pointer;
 }
+
+.nav-p.start .logo ::after{
+  content: 'YouTube';
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Arial, Helvetica, sans-serif';
+  position: absolute;
+  display: inline-block;
+}
+
+.nav-p.center{
+  flex: 1 0 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-p.end{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+
+.App-body{
+  width: 100%;
+  min-height: 90vh;
+}
+
+.App-footer{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(46, 46, 46);
+  border-top: 3px #ffffff solid;
+  color: #ffffff;
+}
+
