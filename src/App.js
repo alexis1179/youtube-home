@@ -120,9 +120,6 @@ function App() {
             date="5 years ago"></Videos>
         </div>
       </div>
-      <div className="App-footer">
-        <p>FOOTER</p>
-      </div>
     </div>
   );
 }
