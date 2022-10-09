@@ -54,21 +54,7 @@ function App() {
         </nav>
       </header>
       <div className="App-body">
-        <div className="body-themesBar">
-          <Themes name="Videogames"></Themes>
-          <Themes name="J-pop"></Themes>
-          <Themes name="K-pop"></Themes>
-          <Themes name="Salsa"></Themes>
-          <Themes name="Auron"></Themes>
-          <Themes name="Movies"></Themes>
-          <Themes name="Jujutsu Kaisen"></Themes>
-          <Themes name="Anime"></Themes>
-          <Themes name="Python"></Themes>
-          <Themes name="C#"></Themes>
-          <Themes name="Java"></Themes>
-          <Themes name="Javascript"></Themes>
-        </div>
-        <div className="body-aside">
+      <div className="body-aside">
           <div className="aside-section sec1">
             <Options name="Home"></Options>
             <Options name="Explore"></Options>
@@ -110,6 +96,20 @@ function App() {
           <Options name="Help"></Options>
           <Options name="Suggests"></Options>
           </div>
+        </div>
+        <div className="body-themesBar">
+          <Themes name="Videogames"></Themes>
+          <Themes name="J-pop"></Themes>
+          <Themes name="K-pop"></Themes>
+          <Themes name="Salsa"></Themes>
+          <Themes name="Auron"></Themes>
+          <Themes name="Movies"></Themes>
+          <Themes name="Jujutsu Kaisen"></Themes>
+          <Themes name="Anime"></Themes>
+          <Themes name="Python"></Themes>
+          <Themes name="C#"></Themes>
+          <Themes name="Java"></Themes>
+          <Themes name="Javascript"></Themes>
         </div>
         <div className="body-main">
           <Videos 
