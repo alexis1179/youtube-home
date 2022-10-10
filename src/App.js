@@ -120,9 +120,49 @@ function App() {
                 author="Aimer Official Channel Youtube"
                 views="2.5M"
                 date="5 years ago"></Videos>
-              </div>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );

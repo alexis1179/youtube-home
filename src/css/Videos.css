@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
+    cursor: pointer;
 }
 
 .Videos-container .picture img{
@@ -31,6 +32,7 @@
 .Videos-container .description-text .description-text-section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0.5rem 0.8rem;
+    text-align: start;
 }
 
 .Videos-container .description-text .sec1{

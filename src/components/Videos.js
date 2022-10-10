@@ -22,9 +22,9 @@ export function Videos(props){
                         </div>
                     </div>
                     <div className="description-text-section data">
-                            <span className='views'>{props.views} views</span>
-                            <span className='date'>{props.date}</span>
-                        </div>
+                        <span className='views'>{props.views} views</span>
+                        <span className='date'>{props.date}</span>
+                    </div>
                 </div>
             </div>
         </div>
