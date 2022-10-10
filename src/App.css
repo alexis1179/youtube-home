@@ -1,3 +1,7 @@
+:root{
+  --videos-size: 520px;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -122,16 +126,25 @@ body{
 /*Themes bar*/
 .body-themesBar{
   width: 100%;
+  box-sizing: border-box;
   background-color: #1e1e1e;
   height: 5rem;
+  border-color: #373737;
+  border-width: 2px 0px;
+  border-style: solid;
+  overflow-x:hidden;
+  padding: 0.7rem 0;
 }
 
 .body-videos{
   width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .videos-box{
-  width: calc((100% - 20rem)/3);
+  width: var(--videos-size);
   padding: 1.1rem;
+  display: inline-block;
 }
 
