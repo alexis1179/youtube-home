@@ -1,3 +1,4 @@
+import { ThemesCss } from "../css/Themes.css"
 
 export function Themes(props){
     return(

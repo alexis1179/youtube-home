@@ -97,28 +97,32 @@ function App() {
           <Options name="Suggests"></Options>
           </div>
         </div>
-        <div className="body-themesBar">
-          <Themes name="Videogames"></Themes>
-          <Themes name="J-pop"></Themes>
-          <Themes name="K-pop"></Themes>
-          <Themes name="Salsa"></Themes>
-          <Themes name="Auron"></Themes>
-          <Themes name="Movies"></Themes>
-          <Themes name="Jujutsu Kaisen"></Themes>
-          <Themes name="Anime"></Themes>
-          <Themes name="Python"></Themes>
-          <Themes name="C#"></Themes>
-          <Themes name="Java"></Themes>
-          <Themes name="Javascript"></Themes>
-        </div>
         <div className="body-main">
-          <Videos 
-            name="afterdark"
-            title="After Dark - Aimer"
-            author="Aimer Official Channel Youtube"
-            views="2.5M"
-            date="5 years ago"></Videos>
-        </div>
+          <div className="body-themesBar">
+            <Themes name="Videogames"></Themes>
+            <Themes name="J-pop"></Themes>
+            <Themes name="K-pop"></Themes>
+            <Themes name="Salsa"></Themes>
+            <Themes name="Auron"></Themes>
+            <Themes name="Movies"></Themes>
+            <Themes name="Jujutsu Kaisen"></Themes>
+            <Themes name="Anime"></Themes>
+            <Themes name="Python"></Themes>
+            <Themes name="C#"></Themes>
+            <Themes name="Java"></Themes>
+            <Themes name="Javascript"></Themes>
+          </div>
+          <div className="body-videos">
+            <div className='videos-box'>
+              <Videos 
+                name="afterdark"
+                title="After Dark - Aimer"
+                author="Aimer Official Channel Youtube"
+                views="2.5M"
+                date="5 years ago"></Videos>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   );

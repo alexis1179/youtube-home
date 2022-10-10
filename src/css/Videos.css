@@ -1,0 +1,62 @@
+.Videos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.Videos-container .picture img{
+    width: 100%;
+}
+
+.Videos-container .description{
+    display: flex;
+    justify-content: stretch;
+}
+
+.Videos-container .description-icon{
+    width: auto;
+    padding: 0.5rem 0.8rem;
+}
+
+.Videos-container .description-icon img{
+    width: 2.5rem;
+}
+
+.Videos-container .description-text{
+    flex: 1;
+}
+
+.Videos-container .description-text .description-text-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem 0.8rem;
+}
+
+.Videos-container .description-text .sec1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.Videos-container .description-text .sec2,
+.Videos-container .description-text .data{
+    font-size: 1.1rem;
+    color: rgb(174, 174, 174);
+    text-align: start;
+}
+
+.Videos-container .description-text .data .views{
+    margin: 0 0.5rem 0 0;
+}
+
+.Videos-container .description-text .data .views::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(174, 174, 174);
+}
+
+.Videos-container .description-text .data .date{
+    margin: 0 0 0 0.5rem;
+}

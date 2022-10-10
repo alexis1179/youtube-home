@@ -13,7 +13,7 @@ body{
 
 .App-header{
   width: 100%;
-  background-color: rgb(38, 38, 38);
+  background-color: #1e1e1e;
   color: #ffffff;
   padding: 1.2rem;
   box-sizing: border-box;
@@ -82,12 +82,15 @@ body{
 .App-body{
   width: 100%;
   min-height: 90vh;
+  display: flex;
 }
 
 .body-aside{
   width: 20rem;
   background-color: #1e1e1e;
   padding: 0 1.4rem;
+  flex-shrink: 0;
+
 }
 
 .aside-section{
@@ -110,3 +113,25 @@ body{
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+
+.body-main{
+  flex: 1;
+  background-color: #1e1e1e;
+}
+
+/*Themes bar*/
+.body-themesBar{
+  width: 100%;
+  background-color: #1e1e1e;
+  height: 5rem;
+}
+
+.body-videos{
+  width: 100%;
+}
+
+.videos-box{
+  width: calc((100% - 20rem)/3);
+  padding: 1.1rem;
+}
+
