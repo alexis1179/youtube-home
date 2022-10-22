@@ -125,43 +125,43 @@ function App() {
             </div>
             <div className='videos-box'>
               <Videos 
-                name="afterdark"
-                title="After Dark - Aimer"
+                name="domekano"
+                title="Crying for rain"
+                author="Minami Official Channel"
+                views="2.5M"
+                date="3 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="linux"
+                title="What's Linux?"
+                author="LinuxScoop"
+                views="2k"
+                date="1 year ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="classelite"
+                title="Classroom of the Elite - OP"
+                author="Crunchyroll"
+                views="1.2M"
+                date="3 years ago"></Videos>
+            </div>
+            <div className='videos-box'>
+              <Videos 
+                name="fate"
+                title="Brave Shine"
                 author="Aimer Official Channel Youtube"
                 views="2.5M"
                 date="5 years ago"></Videos>
             </div>
             <div className='videos-box'>
               <Videos 
-                name="afterdark"
-                title="After Dark - Aimer"
-                author="Aimer Official Channel Youtube"
+                name="reactjs"
+                title="ReactJs Full Course"
+                author="Free Code Camp"
                 views="2.5M"
-                date="5 years ago"></Videos>
-            </div>
-            <div className='videos-box'>
-              <Videos 
-                name="afterdark"
-                title="After Dark - Aimer"
-                author="Aimer Official Channel Youtube"
-                views="2.5M"
-                date="5 years ago"></Videos>
-            </div>
-            <div className='videos-box'>
-              <Videos 
-                name="afterdark"
-                title="After Dark - Aimer"
-                author="Aimer Official Channel Youtube"
-                views="2.5M"
-                date="5 years ago"></Videos>
-            </div>
-            <div className='videos-box'>
-              <Videos 
-                name="afterdark"
-                title="After Dark - Aimer"
-                author="Aimer Official Channel Youtube"
-                views="2.5M"
-                date="5 years ago"></Videos>
+                date="2 months ago"></Videos>
             </div>
           </div>
         </div>
