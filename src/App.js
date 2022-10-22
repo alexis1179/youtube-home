@@ -23,29 +23,31 @@ function App() {
             <div className="logo">
               <a href="https://www.youtube.com">
                 <img src={iconYt} alt="youtube logo" width="45px"/>
+                <i className="text">YouTube</i>
               </a>
             </div>
           </div>
           <div className="nav-p center">
             <div className="searchBar">
-              <input type="search" name="search" id="search" className="search input" />
+              <input type="search" name="search" id="search" className="search input" 
+                     placeholder='Search something...'/>
                 <button type="submit">
-                  <img src={iconSearch} alt="search" width="15px" />
+                  <img src={iconSearch} alt="search" width="20px" />
                 </button>
             </div>
           </div>
           <div className="nav-p end">
-            <div className="createVideo">
+            <div className="nav-p-end-son createVideo">
               <a href="">
                 <img src={iconVideo} alt="create video" width="30px" />
               </a>
             </div>
-            <div className="notifications">
+            <div className="nav-p-end-son notifications">
               <a href="">
                 <img src={iconNotif} alt="notifications" width="30px" />
               </a>
             </div>
-            <div className="user">
+            <div className="nav-p-end-son user">
               <a href="">
                 <img src={iconUser} alt="user" width="30px" />
               </a>

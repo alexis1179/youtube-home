@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 :root{
   --videos-size: 520px;
 }
@@ -53,18 +55,25 @@ body{
   background-color: #ffffff;
 }
 
+.nav-p.start .burger,
+.nav-p.start .logo{
+  margin: 0rem 0.5rem;
+}
+
 .nav-p.start .logo a{
   text-decoration: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.nav-p.start .logo ::after{
-  content: 'YouTube';
-  font-size: 1.2rem;
+.nav-p.start .logo a .text{
+  font-size: 2.2rem;
+  font-weight: 500;
   color: #ffffff;
-  font-family: 'Arial, Helvetica, sans-serif';
-  position: absolute;
-  display: inline-block;
+  font-family: 'Roboto' sans-serif;
+  font-style: normal;
+  margin: 0 0.6rem;
 }
 
 .nav-p.center{
@@ -74,6 +83,28 @@ body{
   align-items: center;
 }
 
+.nav-p.center .searchBar .search{
+  width: 40rem;
+  height: 3rem;
+  background-color: #101010;
+  box-sizing: border-box;
+  padding: 8px;
+  color: #ffffff;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 5px 5px 5px 5px;
+  border: #373737 2px solid;
+}
+
+.nav-p.center .searchBar button{
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  background-color: #373737;
+  border: none;
+  cursor: pointer;
+}
+
 .nav-p.end{
   display: flex;
   flex-direction: row;
@@ -81,8 +112,9 @@ body{
   justify-content: flex-end;
 }
 
-
-
+.nav-p-end-son{
+  margin: 0rem 0.5rem;
+}
 .App-body{
   width: 100%;
   min-height: 90vh;
